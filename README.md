@@ -6,12 +6,13 @@ sbt-clean-ivy is a plugin that adds tasks to sbt to delete the global ivy2 cache
     > rm -rf .ivy2/cache
 
 Provided: 
+---------
 
-Tasks
+###Tasks
 ivy-cache-clean
 ivy-cache-files
 
-Settings
+###Settings
 ivyCacheDirectory
 
 The recommended configuration is as a global plugin. Add the following to .sbt/plugins/sbt-clean-ivy.sbt: 
