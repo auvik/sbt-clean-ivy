@@ -9,11 +9,11 @@ Provided:
 ---------
 
 ###Tasks
-*ivy-cache-clean
-*ivy-cache-files
+- ivy-cache-clean
+- ivy-cache-files
 
 ###Settings
-*ivyCacheDirectory
+- ivyCacheDirectory
 
 The recommended configuration is as a global plugin. Add the following to .sbt/plugins/sbt-clean-ivy.sbt: 
 addSbtPlugin("com.auvik.sbt", "sbt-clean-ivy", "0.0.1")
